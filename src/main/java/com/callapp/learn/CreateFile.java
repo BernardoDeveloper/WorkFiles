@@ -3,13 +3,9 @@ package com.callapp.learn;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
-public class WorkingFiles {
-    public static void CreateFile() {
-        // Define reader
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
+public class CreateFile {
+    public static void CreateFile(BufferedReader reader) {
         try {
             // Get user input
             System.out.print("Type fileName: ");
