@@ -1,4 +1,4 @@
-package com.callapp.learn;
+package com.files.learn;
 
 import org.json.simple.JSONObject;
 
@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import static com.callapp.utils.InputOutput.inputOutput;
+import static com.files.utils.InputOutput.inputOutput;
 
 public class WriteFile {
     public static void WriteFile(BufferedReader reader) {

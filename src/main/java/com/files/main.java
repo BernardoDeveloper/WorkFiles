@@ -1,13 +1,13 @@
-package com.callapp;
+package com.files;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Objects;
 
-import static com.callapp.learn.CreateFile.CreateFile;
-import static com.callapp.learn.WriteFile.WriteFile;
-import static com.callapp.utils.InputOutput.inputOutput;
+import static com.files.learn.CreateFile.CreateFile;
+import static com.files.learn.WriteFile.WriteFile;
+import static com.files.utils.InputOutput.inputOutput;
 
 public class main {
     public static void main(String[] args) throws IOException {
