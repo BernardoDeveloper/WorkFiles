@@ -5,7 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class InputOutput {
+    String phraseType;
+
     public InputOutput(String phrase) {
+        phraseType = phrase;
     }
 
     public static String inputOutput(String phrase) throws IOException {
